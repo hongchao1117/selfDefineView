@@ -1,0 +1,7 @@
+Android开发中自定义控件的开发：
+Android中所有控件和布局的基类都是 View，自定义控件也就是extends View 或者 view的派生类
+然后重写类的内部方法
+通常来说自定义控件分为三种：
+1、自定义View：extends View
+2、基于现有组件：extends View的派生类
+3、组合的方式：自定义控件中包含了其他的组件
